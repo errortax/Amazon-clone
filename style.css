@@ -9,7 +9,7 @@
    background-color: #0f1111;
    color: white;
    display: flex;
-
+   align-items: center;
 }
 
 .nav-logo{
@@ -41,11 +41,20 @@
 }
 
 .add-second{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-left: 3px;
 }
 
 .add-icon{
     display: flex;
     align-items: center;
+}
+
+/** box2 **/
+.nav-search{
+    display: flex;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
 }
