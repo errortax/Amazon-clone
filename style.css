@@ -53,6 +53,7 @@
 /** box3 **/
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
     background-color: orange;
     width: 620px;
     height: 40px;
@@ -63,5 +64,12 @@
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
 }
