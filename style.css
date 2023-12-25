@@ -236,6 +236,9 @@ footer {
     /** for horizontal allignment**/
     font-size: 0.85rem;
 }
+.foot-panel1 a{
+    color: #f3f3f3;
+}
 
 .foot-panel2 {
     background-color: #222f3d;
@@ -258,12 +261,38 @@ ul a {
 
 .foot-panel3 {
     background-color: #222f3d;
-    color: white;
     border-top: 0.5px solid white;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+   
+}
+.lan{
+    display: flex;
+    width: 100px;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px;
+    font-size: 13px;
+    margin-right: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-lan{
+    display: inline;
+    padding-left: 7.8px;
+}
+
+.logo-lan span{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.logo-lan i{
+    color: #cccccc;
 }
 
 .logo {
@@ -271,6 +300,28 @@ ul a {
     background-size: cover;
     height: 50px;
     width: 100px;
-    
+    align-items: center;
+   
+
+}
+
+/**panel 4**/
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+
+.pages {
+
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
 
 }
